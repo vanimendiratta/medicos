@@ -1,0 +1,118 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.head{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1 {
+    color: #fff;
+}
+
+/* Navigation styles */
+nav {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.search{
+    height: 32px;
+    gap:20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 300px;
+}
+
+.search-button{
+    background-color:grey;
+    border: none;
+    border-radius: 4px;
+    color:black;
+    padding: 8px 24px;
+    cursor: pointer;
+    font-family: "Roboto",sans-serif;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+.Signing{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+left:1300px;
+border: none;
+background-color: white;
+}
+
+.Signing a{
+    color: black;
+    text-decoration: none;
+    }
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+li {
+    margin: 0 10px;
+}
+
+a {
+    color: rgb(99, 23, 23);
+    text-decoration: none;
+}
+
+/* Featured products section styles */
+#featured-products {
+    height: 500px;
+    /* max-width: 900px; */
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    display: grid;
+    grid-gap: 20px;
+    background-color: aqua;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+button:hover {
+    background-color: #555;
+}
+
+/* Footer styles */
+footer {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
